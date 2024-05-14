@@ -6,6 +6,7 @@
         <class>pbo.f01.entities.Student</class>
         <class>pbo.f01.entities.Dorm</class>
         <class>pbo.f01.entities.Assignment</class>
+
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:h2:./db/dormy"></property>
       <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"></property>

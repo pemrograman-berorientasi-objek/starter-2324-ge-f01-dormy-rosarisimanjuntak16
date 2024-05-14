@@ -10,7 +10,6 @@ public class Dorm {
     private String name;
     private int capasity;
     private String gender;
-
     public Dorm() {}
 
     public Dorm(String name, int capasity, String gender) {

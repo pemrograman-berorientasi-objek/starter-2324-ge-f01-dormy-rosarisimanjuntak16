@@ -74,6 +74,7 @@ public class App {
         }
     }
 
+    
     private static void registerStudent(String id, String name, int angkatan, String gender) {
         entityManager.getTransaction().begin();
         Student student = new Student(id, name, gender, angkatan);

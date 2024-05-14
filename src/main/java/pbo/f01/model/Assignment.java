@@ -11,7 +11,6 @@ public class Assignment {
     @Id
     private Long id;
     
-
     @ManyToOne
     @JoinColumn(name = "student_id")
     private Student student;
