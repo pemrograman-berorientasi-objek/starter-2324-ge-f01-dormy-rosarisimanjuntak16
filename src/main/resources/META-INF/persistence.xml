@@ -2,10 +2,9 @@
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
   <persistence-unit name="pbo-f01" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <persistence-unit name="pbo-f01">
-        <class>pbo.f01.entities.Student</class>
-        <class>pbo.f01.entities.Dorm</class>
-        <class>pbo.f01.entities.Assignment</class>
+    <class>pbo.f01.entities.Student</class>
+    <class>pbo.f01.entities.Dorm</class>
+    <class>pbo.f01.entities.Assignment</class>
 
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:h2:./db/dormy"></property>
@@ -16,5 +15,4 @@
       <property name="eclipselink.logging.level" value="WARNING"/>
     </properties>
   </persistence-unit>
-
 </persistence>

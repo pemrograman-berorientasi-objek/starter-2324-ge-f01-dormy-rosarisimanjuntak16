@@ -1,36 +1,27 @@
 package pbo.f01.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
-@Table(name = "dorms")
-
 public class Dorm {
- 
-    private String name;
-    private int capasity;
+    @Id
+    private String dormname;
+    private int capacity;
     private String gender;
-    public Dorm() {}
-
-    public Dorm(String name, int capasity, String gender) {
-        this.name = name;
-        this.capasity = capasity;
-        this.gender = gender;
-
-    }
 
     public String getname(){
-        return name;
+        return dormname;
     }
-    public  void setName(String name){
-        this.name = name;
+    public  void setName(String dormname){
+        this.dormname = dormname;
     }
 
-    public int getCapasity(){
-        return capasity;
+    public int getCapacity(){
+        return capacity;
     }
-    public  void setCapasity(int capasity){
-        this.capasity = capasity;
+    public  void setCapacity(int capacity){
+        this.capacity = capacity;
     }
 
     public String getgender(){

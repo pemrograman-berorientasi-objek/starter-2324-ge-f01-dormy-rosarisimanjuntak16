@@ -1,0 +1,6 @@
+2024-05-15 20:29:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORM" not found (this database is empty); SQL statement:
+INSERT INTO dorm (name, capacity, gender) VALUES ('Pniel', 5, 'female') [42104-212]
+2024-05-15 21:44:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO student (id, name, [*]year, gender) VALUES ('12S21010', 'Bobby Siagian', 2021, 'male')"; expected "identifier"; SQL statement:
+INSERT INTO student (id, name, year, gender) VALUES ('12S21010', 'Bobby Siagian', 2021, 'male') [42001-212]
